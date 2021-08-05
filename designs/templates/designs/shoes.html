@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forever Fashion - Shoes</title>
+</head>
+<body>
+{% extends 'designs/base.html' %}
+{% load static %}
+{% block content %}
+    <!-- Some CSS -->
+    <style type="text/css">
+      body {
+          background-image: linear-gradient(180deg, #eee, #fff 100px, #fff);
+        }
+
+        .container {
+          max-width: 960px;
+        }
+
+        .pricing-header {
+          max-width: 700px;
+        }
+
+    </style>
+
+
+    <div class="container py-3">
+
+    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+      <h1 class="display-4 fw-normal">You can do anything but touch the kicks</h1>
+      <p class="fs-5 text-muted">Fashion is the only way to speak when you actually don't want to talk.  Check out our saucy clothes and add a message on Whatsapp to our number with the the product name that you want.</p>
+    </div>
+
+        <!-- First Column -->
+  <main>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">White Tennis</h4>
+          </div>
+          <div class="card-body">
+            <img src="{% static 'media/saucykicks1.jpg' %}" width="200" height="200">
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">$20</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Classy RTydr</h4>
+          </div>
+          <div class="card-body">
+            <img src="{% static 'media/saucykicks2.jpg' %}" width="200" height="200">
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">$20</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Saucy Blxck</h4>
+          </div>
+          <div class="card-body">
+            <img src="{% static 'media/saucykicks3.jpg' %}" width="200" height="200">
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">$20</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+        <!-- Second Column -->
+  <main>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Cubano</h4>
+          </div>
+          <div class="card-body">
+            <img src="{% static 'media/saucykicks4.jpg' %}" width="200" height="200">
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">$20</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Applying Pressure</h4>
+          </div>
+          <div class="card-body">
+            <img src="{% static 'media/saucykicks5.jpg' %}" width="200" height="200">
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">$20</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Stay in your Lane</h4>
+          </div>
+          <div class="card-body">
+            <img src="{% static 'media/saucykicks6.jpg' %}" width="200" height="200">
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">$20</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+        <!-- Third Column -->
+  <main>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Beast Mode</h4>
+          </div>
+          <div class="card-body">
+            <img src="{% static 'media/saucykicks7.png' %}" width="150" height="200">
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">$20</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Big Che</h4>
+          </div>
+          <div class="card-body">
+            <img src="{% static 'media/saucykicks8.jpg' %}" width="200" height="200">
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">$20</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Yeen Even Know</h4>
+          </div>
+          <div class="card-body">
+            <img src="{% static 'media/saucykicks9.jpg' %}" width="175" height="200">
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">$20</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+        <!-- Fourth Column -->
+  <main>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Young Boy</h4>
+          </div>
+          <div class="card-body">
+            <img src="{% static 'media/saucykicks10.jpg' %}" width="200" height="200">
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">$20</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Young Gun</h4>
+          </div>
+          <div class="card-body">
+            <img src="{% static 'media/saucykicks11.jpg' %}" width="200" height="200">
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">$20</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Demolition</h4>
+          </div>
+          <div class="card-body">
+            <img src="{% static 'media/saucykicks12.jpg' %}" width="200" height="200">
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">$20</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+    </div>
+
+
+
+{% endblock content %}
+
+</body>
+</html>
