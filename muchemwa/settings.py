@@ -25,10 +25,7 @@ SECRET_KEY = 'django-insecure-9r=(g4(z@vj5#i^r@jykex3wf5xc75-4se*(f-s$&!+uc*7e*e
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    'django-muchemwa.hostman.site',
-    'localhost'
-]
+ALLOWED_HOSTS = []
 
 
 # Application definition
